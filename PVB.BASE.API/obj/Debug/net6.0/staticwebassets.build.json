@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IcDE8QoyDzcoVnPwbbbhKo5qnmhAeo3CMSjCJImfPxw=",
+  "Source": "PVB.BASE.API",
+  "BasePath": "_content/PVB.BASE.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

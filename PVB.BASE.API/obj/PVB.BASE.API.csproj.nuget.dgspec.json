@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.API\\PVB.BASE.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.API\\PVB.BASE.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.API\\PVB.BASE.API.csproj",
+        "projectName": "PVB.BASE.API",
+        "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.API\\PVB.BASE.API.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj"
+              },
+              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj",
+        "projectName": "PVB.BASE.BL",
+        "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj"
+              },
+              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
+        "projectName": "PVB.BASE.Common",
+        "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj",
+        "projectName": "PVB.BASE.DL",
+        "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
