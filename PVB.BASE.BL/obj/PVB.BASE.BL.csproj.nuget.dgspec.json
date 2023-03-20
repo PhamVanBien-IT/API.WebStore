@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj": {}
+    "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.BL\\PVB.BASE.BL.csproj": {}
   },
   "projects": {
-    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj": {
+    "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.BL\\PVB.BASE.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj",
+        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.BL\\PVB.BASE.BL.csproj",
         "projectName": "PVB.BASE.BL",
-        "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\PVB.BASE.BL.csproj",
+        "projectPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.BL\\PVB.BASE.BL.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.BL\\obj\\",
+        "outputPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
-                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj"
+              "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj"
               },
-              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj": {
-                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj"
+              "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.DL\\PVB.BASE.DL.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.DL\\PVB.BASE.DL.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
+    "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
+        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
         "projectName": "PVB.BASE.Common",
-        "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
+        "projectPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\obj\\",
+        "outputPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,14 +131,14 @@
         }
       }
     },
-    "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj": {
+    "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.DL\\PVB.BASE.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj",
+        "projectUniqueName": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.DL\\PVB.BASE.DL.csproj",
         "projectName": "PVB.BASE.DL",
-        "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\PVB.BASE.DL.csproj",
+        "projectPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.DL\\PVB.BASE.DL.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.DL\\obj\\",
+        "outputPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.DL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,8 +155,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
-                "projectPath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj"
+              "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj": {
+                "projectPath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj"
               }
             }
           }

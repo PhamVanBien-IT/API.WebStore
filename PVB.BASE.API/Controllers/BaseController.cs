@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PVB.BASE.BL;
+using PVB.BASE.Common;
 using PVB.BASE.Common.Enums.DTO;
+using System;
 
 namespace PVB.BASE.API.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class BaseController<T> : ControllerBase
     {
@@ -269,6 +271,31 @@ namespace PVB.BASE.API.Controllers
                     MsgDev = ex.Message,
                     MsgUser = Common.Resource.ErrorMsg,
                     TraceId = GetHttpContext().TraceIdentifier
+                });
+            }
+        }
+
+        /// <summary>
+        /// API sinh mã mới
+        /// </summary>
+        /// <returns>Sinh mới mã</returns>
+        /// CreatedBy: Bien (17/1/2023)
+        [HttpGet("NewCode")]
+        public IActionResult NewCode()
+        {
+            try
+            {
+                var data = _baseBL.NewCode();
+
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new ErrorResult
+                {
+                    ErrorCode = PVB.BASE.Common.Enums.ErrorCode.UnknownError,
+                    MsgDev = ex.Message,
+                    MsgUser = Resource.ErrorMsg,
                 });
             }
         }

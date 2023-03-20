@@ -89,5 +89,22 @@ namespace PVB.BASE.BL
         ///  0. Xóa nếu thất bại
         ///  </returns>
         public ServiceResult Deletes(List<Guid> entityIds);
+
+        /// <summary>
+        /// API Sinh mã mới
+        /// </summary>
+        /// <returns>Mã mới</returns>
+        /// CreatedBy: Bien (20/03/2023)
+        public ServiceResult NewCode();
+
+        /// <summary>
+        /// API kiểm tra trùng mã 
+        /// </summary>
+        /// <returns>
+        /// True: Nếu mã đã tồn tại
+        /// False: Nếu mã hợp lệ
+        /// </returns>
+        /// CreatedBy: Bien (20/03/2023)
+        public bool CheckCode(T entity, bool isInsert = true);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vocMMsmknkDkgE++8Uau4v+4Ba8joLIWTuSKTrH423T9SNs+CQYvh+EsVgUkfTfL+d1rk0WwTHJBLcZpgLoWRA==",
+  "dgSpecHash": "Vommit/UCwQ0i3Ccy0Gp54nlGeAqnIYhCUAHcZYs5YHPtLpyUy8zSUt6Vlg5G/DLXnYD7TKMk8h5zEtRy6XJ8g==",
   "success": true,
-  "projectFilePath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
+  "projectFilePath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",

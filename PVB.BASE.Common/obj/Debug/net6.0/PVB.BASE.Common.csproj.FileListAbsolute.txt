@@ -12,3 +12,17 @@ D:\Đồ án tốt nghiệp\PVB.BASE.API\PVB.BASE.Common\obj\Debug\net6.0\PVB.BA
 D:\Đồ án tốt nghiệp\PVB.BASE.API\PVB.BASE.Common\obj\Debug\net6.0\refint\PVB.BASE.Common.dll
 D:\Đồ án tốt nghiệp\PVB.BASE.API\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.pdb
 D:\Đồ án tốt nghiệp\PVB.BASE.API\PVB.BASE.Common\obj\Debug\net6.0\ref\PVB.BASE.Common.dll
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\bin\Debug\net6.0\PVB.BASE.Common.deps.json
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\bin\Debug\net6.0\PVB.BASE.Common.dll
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\bin\Debug\net6.0\PVB.BASE.Common.pdb
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.csproj.AssemblyReference.cache
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.Resource.resources
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.csproj.GenerateResource.cache
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.AssemblyInfoInputs.cache
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.AssemblyInfo.cs
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.csproj.CoreCompileInputs.cache
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.dll
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\refint\PVB.BASE.Common.dll
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\PVB.BASE.Common.pdb
+D:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.Common\obj\Debug\net6.0\ref\PVB.BASE.Common.dll

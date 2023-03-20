@@ -65,12 +65,11 @@ namespace PVB.BASE.DL
         /// API tìm kiếm nhân viên theo tên và mã
         /// </summary>
         /// <param name="filter">Tên nhân viên và mã nhân viên cần tìm kiếm</param>
-        /// <param name="deparmentId">Id department muốn tìm</param>
-        /// <param name="positionId">Id position muốn tìm</param>
-        /// <param name="pageSize">Kích thước trong 1 bảng ghi</param>
-        /// <param name="pageNumber">Số thứ tự hiện tại của trang</param>
+        /// <param name="categoryName">Tên danh mục muốn lấy</param>
+        /// <param name="offSet">Vị trí muốn lấy bản ghi</param>
+        /// <param name="liMit">Số bản ghi muốn lấy</param>
         /// <returns>Danh sách nhân viên</returns>
-        /// CreatedBy: Bien (17/1/2023)
+        /// CreatedBy: Bien (20/03/2023)
         public PagingResult Filter(
             [FromQuery] string? filter,
             [FromQuery] string? categoryName,
@@ -81,8 +80,8 @@ namespace PVB.BASE.DL
             // Khai tên class truyền vào
             var entityName = typeof(T).Name;
 
-            // Tự động tăng pageNumber nếu bằng 0
-            offSet = offSet * 10;
+            offSet = (offSet - 1) * liMit;
+
             // Chuẩn bị tên stored procedure
             string storedProdureName = string.Format(ProcedureName.PROC_GET_BY_FILTER, entityName);
 
@@ -107,7 +106,7 @@ namespace PVB.BASE.DL
                 {
                     Data = dataList,
                     totalRecord = sumPage,
-                    totalPage = sumPage / liMit,
+                    totalPage = (sumPage / liMit) == 0 ? 1 : sumPage/ liMit,
                 };
                 return data;
             }
@@ -351,6 +350,56 @@ namespace PVB.BASE.DL
             {
                 return numberOfAffectedRows;
             }
+        }
+
+        /// <summary>
+        /// API sinh mới mới
+        /// </summary>
+        /// <returns>Mã mới được tạo</returns>
+        /// CreatedBy: Bien (17/1/2023)
+        public string GetMaxCode()
+        {
+            // Khai tên class truyền vào
+            var entityName = typeof(T).Name;
+
+            // Tính toán mã nhân viên mới
+            string storedProdureName = String.Format(ProcedureName.PROC_GETMAXCODE, entityName);
+
+            // Gọi vào DB
+            using (var connection = _database.CreateConnection())
+            {
+                var multi = connection.QueryMultiple(storedProdureName, commandType: CommandType.StoredProcedure);
+                var maxEntityCode = multi.ReadFirstOrDefault<string>();
+                return maxEntityCode;
+            }
+        }
+
+        ///// <summary>
+        ///// API kiểm tra trùng mã nhân viên
+        ///// </summary>
+        ///// <returns>
+        ///// ID đối tượng
+        ///// </returns>
+        public Guid CheckCode(string entityCode)
+        {
+            // Khai tên class truyền vào
+            var entityName = typeof(T).Name;
+
+            // Chuẩn bị tên stored procedure
+            string storedProdureName = String.Format(ProcedureName.PROC_CHECKCODE,entityName);
+
+            //Chuẩn bị thàm số đầu vào cho stored
+            var parameters = new DynamicParameters();
+            parameters.Add($"p_{entityName}Code", entityCode);
+
+            // Gọi vào DB
+            using (var connection = _database.CreateConnection())
+            {
+                var result = connection.QueryFirstOrDefault<Guid>(storedProdureName, parameters, commandType: CommandType.StoredProcedure);
+
+                return result;
+            }
+
         }
     }
 }

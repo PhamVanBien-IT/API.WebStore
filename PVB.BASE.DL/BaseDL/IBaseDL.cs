@@ -90,5 +90,21 @@ namespace PVB.BASE.DL
         /// </returns>
         /// CreatedBy: Bien (24/02/2023)
         public int Deletes(List<Guid> entityIds);
+
+        /// <summary>
+        /// API Sinh mã mới
+        /// </summary>
+        /// <returns>Mã mới</returns>
+        /// CreatedBy: Bien (24/02/2023)
+        public string GetMaxCode();
+
+        /// <summary>
+        /// API kiểm tra trùng mã
+        /// </summary>
+        /// <returns>
+        /// Id đối tượng
+        /// </returns>
+        /// CreatedBy: Bien (20/03/2023)
+        public Guid CheckCode(string entityCode);
     }
 }

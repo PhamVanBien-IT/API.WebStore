@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G8GkX4ZtjlxV0XjAHqPta61Z9aIti1akDYUgDzynIzfrye33b2x7xVzBhQTl+Zs9uISn6bQroA6EWkW6fRCqOA==",
+  "dgSpecHash": "rVWl0H/UowyvurXV0zjnn/Zizf67sGXZO4KRd/nfZytF6UHraij8S4ZH2L/gRajZnX5M4FlUiTyR782+va7+vw==",
   "success": true,
-  "projectFilePath": "D:\\Đồ án tốt nghiệp\\PVB.BASE.API\\PVB.BASE.API\\PVB.BASE.API.csproj",
+  "projectFilePath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.API\\PVB.BASE.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -47,5 +47,15 @@ namespace PVB.BASE.Common.Constants
         /// Template cho procdure xóa nhiều bản ghi
         /// </summary>
         public static string PROC_DELETES = "Proc_{0}_Deletes";
+
+        /// <summary>
+        /// Template cho produre sinh mã mới
+        /// </summary>
+        public static string PROC_GETMAXCODE = "Proc_{0}_GetMaxCode";
+
+        /// <summary>
+        /// Template cho produre check trùng mã
+        /// </summary>
+        public static string PROC_CHECKCODE = "Proc_{0}_GetByCode";
     }
 }

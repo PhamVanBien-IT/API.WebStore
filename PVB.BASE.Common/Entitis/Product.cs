@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,42 +18,52 @@ namespace PVB.BASE.Common.Entitis
         /// <summary>
         /// Mã sản phâm
         /// </summary>
+        [Required(ErrorMessage = "Mã không được để trống")]
+        [DisplayName("Mã sản phẩm")]
+        [RegularExpression(@"SP-[0-9]{5,17}\b")]
         public string ProductCode { get; set; }
 
         /// <summary>
         /// Tên sản phẩm
         /// </summary>
+        [Required(ErrorMessage = "Tên không được để trống")]
         public string FullName { get; set; }
-
-        /// <summary>
-        /// Mô tả
-        /// </summary>
-        public string Description { get; set; }
-
-        /// <summary>
-        /// Gía
-        /// </summary>
-        public int Price { get; set; }
-
-        /// <summary>
-        /// Ảnh
-        /// </summary>
-        public string Image { get; set; }
-        
-        /// <summary>
-        /// Kích thước
-        /// </summary>
-        public string Size { get; set; }
-
-        /// <summary>
-        /// Màu sắc
-        /// </summary>
-        public string Color { get; set; }
 
         /// <summary>
         /// Số lượng
         /// </summary>
-        public int Quantity { get; set; }
+        [Required(ErrorMessage = "Số lượng không được để trống")]
+        public int? Quantity { get; set; }
+
+        /// <summary>
+        /// Gía
+        /// </summary>
+        [Required(ErrorMessage = "Giá không được để trống")]
+        public int? Price { get; set; }
+
+        /// <summary>
+        /// Kích thước
+        /// </summary>
+        [Required(ErrorMessage = "Size không được để trống")]
+        public string? Size { get; set; }
+
+        /// <summary>
+        /// Màu sắc
+        /// </summary>
+        [Required(ErrorMessage = "Màu không được để trống")]
+        public string? Color { get; set; }
+
+        /// <summary>
+        /// Ảnh
+        /// </summary>
+        //[Required(ErrorMessage = "Ảnh không được để trống")]
+        public string? Image { get; set; }
+
+        /// <summary>
+        /// Mô tả
+        /// </summary>
+        [Required(ErrorMessage = "Mô tả không được để trống")]
+        public string? Description { get; set; }
 
         /// <summary>
         /// Id danh mục
@@ -71,7 +83,7 @@ namespace PVB.BASE.Common.Entitis
         /// <summary>
         /// Người tạo
         /// </summary>
-        public string CreatedBy { get; set;}
+        public string? CreatedBy { get; set;}
 
         /// <summary>
         /// Ngày sửa
@@ -81,6 +93,6 @@ namespace PVB.BASE.Common.Entitis
         /// <summary>
         /// Người sửa
         /// </summary>
-        public string ModifiedBy { get; set;}
+        public string? ModifiedBy { get; set;}
     }
 }

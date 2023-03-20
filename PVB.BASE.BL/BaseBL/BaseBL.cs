@@ -131,10 +131,8 @@ namespace PVB.BASE.BL
         /// API tìm kiếm nhân viên theo tên và mã
         /// </summary>
         /// <param name="filter">Tên nhân viên và mã nhân viên cần tìm kiếm</param>
-        /// <param name="deparmentId">Id department muốn tìm</param>
-        /// <param name="positionId">Id position muốn tìm</param>
-        /// <param name="pageSize">Kích thước trong 1 bảng ghi</param>
-        /// <param name="pageNumber">Số thứ tự hiện tại của trang</param>
+        /// <param name="offSet">Vị trí lấy bản ghi</param>
+        /// <param name="liMit">Số bản ghi muốn lấy</param>
         /// <returns>
         /// Danh sách đối tượng
         /// </returns>
@@ -341,6 +339,40 @@ namespace PVB.BASE.BL
                 serviceResult.IsSuccess = false;
             }
             return serviceResult;
+        }
+
+        /// <summary>
+        /// API sinh mới mã
+        /// </summary>
+        /// <returns>Mã mới được tạo</returns>
+        /// CreatedBy: Bien (17/1/2023)
+        public ServiceResult NewCode()
+        {
+            // Tính toán mã nhân viên mới
+            string maxCode = _baseDL.GetMaxCode();
+
+            // Tách phần chữ và phần số của mã
+            var arrCode = maxCode.Split('-');
+            string firstZezoString = String.Join("", arrCode[1].Where(x => x.Equals("0")).ToList());
+            int code = int.Parse(arrCode[1]);
+
+            return new ServiceResult
+            {
+                Data = $"{arrCode[0]}-{firstZezoString}{++code}"
+            };
+        }
+
+        /// <summary>
+        /// API kiểm tra trùng mã
+        /// </summary>
+        /// <returns>
+        /// True: Nếu mã đã tồn tại
+        /// False: Nếu mã hợp lệ
+        /// </returns>
+        /// CreatedBy: Bien (12/2/2023)
+        public virtual bool CheckCode(T entity, bool isInsert = true)
+        {
+            return false;
         }
 
         #endregion
