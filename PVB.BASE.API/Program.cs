@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using PVB.BASE.BL;
+using PVB.BASE.BL.ProductBL;
 using PVB.BASE.Common.Database;
 using PVB.BASE.DL;
+using PVB.BASE.DL.ProductDL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped(typeof(IBaseDL<>), typeof(BaseDL<>));
 builder.Services.AddScoped(typeof(IBaseBL<>), typeof(BaseBL<>));
+builder.Services.AddScoped<IProductDL, ProductDL>();
+builder.Services.AddScoped<IProductBL, ProductBL>();
 builder.Services.AddScoped<IDatabase, Database>();
 
 // connectionString

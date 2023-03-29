@@ -71,6 +71,11 @@ namespace PVB.BASE.Common.Entitis
         public Guid CategoryId { get; set;}
 
         /// <summary>
+        /// Id danh mục
+        /// </summary>
+        public string CategoryName { get; set; }
+
+        /// <summary>
         /// Id nhà cung cấp
         /// </summary>
         public Guid SupplierId { get; set; }

@@ -255,7 +255,7 @@ namespace PVB.BASE.API.Controllers
         /// 500: Nếu lỗi try catch
         /// </returns>
         [HttpDelete]
-        public IActionResult Deletes(List<Guid> entityIds)
+        public IActionResult Deletes([FromBody] List<Guid> entityIds)
         {
             try
             {
@@ -280,7 +280,7 @@ namespace PVB.BASE.API.Controllers
         /// </summary>
         /// <returns>Sinh mới mã</returns>
         /// CreatedBy: Bien (17/1/2023)
-        [HttpGet("NewCode")]
+        [HttpGet("newCode")]
         public IActionResult NewCode()
         {
             try
