@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Vommit/UCwQ0i3Ccy0Gp54nlGeAqnIYhCUAHcZYs5YHPtLpyUy8zSUt6Vlg5G/DLXnYD7TKMk8h5zEtRy6XJ8g==",
+  "dgSpecHash": "AaskH70Z6JBt8yw+MUIQe6krscD/WRzbm76QJMIwjBYIYnXnLgQRet8q3H5iV2nbZcjLI2U00A/rP4Nq9t1ejg==",
   "success": true,
-  "projectFilePath": "D:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
+  "projectFilePath": "C:\\Đồ án tốt nghiệp\\API.WebStore\\PVB.BASE.Common\\PVB.BASE.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }
