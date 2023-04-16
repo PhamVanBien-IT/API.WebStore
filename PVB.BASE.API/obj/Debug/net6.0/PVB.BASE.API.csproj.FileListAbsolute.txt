@@ -133,7 +133,6 @@ C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\PVB.BASE.
 C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\PVB.BASE.API.AssemblyInfoInputs.cache
 C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\PVB.BASE.API.AssemblyInfo.cs
 C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\PVB.BASE.API.csproj.CoreCompileInputs.cache
-C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\PVB.BASE.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\PVB.BASE.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\staticwebassets\msbuild.PVB.BASE.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Đồ án tốt nghiệp\API.WebStore\PVB.BASE.API\obj\Debug\net6.0\staticwebassets\msbuild.build.PVB.BASE.API.props
